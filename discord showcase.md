@@ -1,6 +1,6 @@
 This serves as a sort of showcase of the possibilities.
 Note that not all functionality is supported by every terminal.
-```
+```js
 let cc = require("./colorconsole.js");
 cc.renderdiscord({
 	author: {
