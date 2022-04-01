@@ -68,7 +68,9 @@ function output(string) {
 		}
 	}
 	for (f in codes.formatting) {
-		string = string.replace(f, codes.formatting[f])
+		let pieces = string.split(f);
+		string = pieces.join(codes.formatting[f]);
+		// string = string.replaceAll(f, codes.formatting[f])
 	}
 	
 
